@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MyRunnable
+comment0.text=\n\ Write\ a\ description\ of\ class\ MyRunnable\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ run()
+comment2.params=
+comment2.target=void\ loadAlarm()
+comment3.params=
+comment3.target=void\ playAlarm()
+comment4.params=
+comment4.target=void\ loopAlarm()
+comment5.params=
+comment5.target=void\ stopAlarm()
+comment6.params=state
+comment6.target=boolean\ setAlarm(boolean)
+comment7.params=time
+comment7.target=void\ setAlarmTime(java.time.LocalDateTime)
+comment8.params=repeat
+comment8.target=void\ setRepeat(boolean)
+comment9.params=path
+comment9.target=void\ changeSound(java.lang.String)
+numComments=10

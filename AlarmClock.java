@@ -32,7 +32,18 @@ public class AlarmClock
     {
         // initialise instance variables
         
-         runner = new MyRunnable();
+       
+        
+        
+        //loadAlarm();
+        
+    }
+   public static void main(String[] args){
+    AlarmClock clock = new AlarmClock();
+    clock.start();
+    }
+    public void start(){
+      runner = new MyRunnable();
         t = new Thread(runner);
         t.start();
         guiActive=false;
@@ -42,12 +53,7 @@ public class AlarmClock
         }else{
          System.out.println("cant be trayed");
         }
-        
-        
-        //loadAlarm();
-        
     }
-   
    public void trayApp(){
       SystemTray tray = SystemTray.getSystemTray();
       Image image = Toolkit.getDefaultToolkit().getImage(System.getProperty("user.dir")+"/alarm.png");
