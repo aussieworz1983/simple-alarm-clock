@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Config
+comment1.params=
+comment1.target=Config()
+comment2.params=key
+comment2.target=java.lang.String\ getProperty(java.lang.String)
+comment3.params=key\ value
+comment3.target=void\ setProperty(java.lang.String,\ java.lang.String)
+comment4.params=
+comment4.target=void\ saveProperties()
+numComments=5
