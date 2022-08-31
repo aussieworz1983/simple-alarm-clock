@@ -2,7 +2,7 @@
 comment0.target=AlarmClock
 comment1.params=
 comment1.target=AlarmClock()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ AlarmClock\n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ AlarmClock\r\n
 comment10.params=e
 comment10.target=void\ actionPerformed(java.awt.event.ActionEvent)
 comment11.params=e
